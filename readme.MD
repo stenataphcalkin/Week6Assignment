@@ -27,3 +27,46 @@
 🎯 Ensure all images have meaningful alt text.
 
 🎯 Ensure basic keyboard navigation for image selection (e.g., thumbnails should be focusable and activatable with Enter/Space).
+
+# Stretch User Stories
+🐿️ As a user, I want to be able to change the images in the gallery using a search bar.
+
+🐿️ As a developer, I want to be able to fetch images from an API with a larger amount of data, such as Unsplash.
+
+🐿️ As a developer I don’t want anyone to know my API keys from code.
+
+🐿️ As a user I want the app to look pleasing.
+
+# Stretch Requirements
+🏹 Use useEffect and the dependancy array to update the images when the user types in an input field.
+
+🏹 Set up an Unsplash application that you can fetch from your React app.
+   ✅ Application set up
+   ![alt text](image.png)
+   🏹 Fetching data
+
+✅ Use .env to hide your API keys and tokens from the code.
+
+🏹 Style the application excellently, using grid or flex and positioning.
+
+# Reflection
+Times I have considered praying to Loki ~for guidance~ to drop a piano on my favourite problem so far: 1
+
+## Required
+🎯 What requirements did you achieve?
+🎯 Were there any requirements or goals that you were unable to achieve?
+🎯 If so, what was it that you found difficult about these tasks?
+
+## Optional
+🏹 Feel free to add any other reflections you would like to share about your submission, for example:
+
+Requesting feedback about a specific part of your submission.
+What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
+What errors or bugs did you encounter while completing your assignment? How did you solve them?
+What went really well and what could have gone better?
+Submission Instructions
+Please submit your Render deployment URL and your GitHub repository URL.
+
+# References
+[Dev.To](https://dev.to/)
+[Reddit](https://reddit.com)
