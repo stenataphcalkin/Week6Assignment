@@ -41,6 +41,7 @@
 🏹 Use useEffect and the dependancy array to update the images when the user types in an input field.
 
 🏹 Set up an Unsplash application that you can fetch from your React app.
+   
    ✅ Application set up
    ![alt text](image.png)
    🏹 Fetching data
