@@ -1,17 +1,16 @@
 import { useState, useEffect} from "react" 
-
 export default function App() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    async function fetchData() {
-      const response = await fetch(
+    async function fetchImages() {
+      let response = await fetch(
         "https://week-6-api.vercel.app/api/images"
       );
-      const data = await response.json();
+      let data = await response.json();
       setImages(data);
     }
-    fetchData();
+    fetchImages();
   }, []);
 
   return (
@@ -19,7 +18,7 @@ export default function App() {
       <h1>Images</h1>
       <ul>
         {images.map((image) => (
-          <li key={image.id}>{image.title}</li>
+          <ul key={image.id}>{image.title}&gt;{image.url}&gt;{image.alt}</ul>
         ))}
       </ul>
     </div>

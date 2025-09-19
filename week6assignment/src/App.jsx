@@ -3,6 +3,7 @@
 // - Start with your wireframe: you build your React client based on the UI
 
 import "./App.css";
+// import "./week6assignment/src/components/gallery/gallery.jsx" Not working. Brain hurt. Moving on.
 
 import { useState, useEffect} from "react" 
 export default function App() {
@@ -10,10 +11,10 @@ export default function App() {
 
   useEffect(() => {
     async function fetchImages() {
-      const response = await fetch(
+      let response = await fetch(
         "https://week-6-api.vercel.app/api/images"
       );
-      const data = await response.json();
+      let data = await response.json();
       setImages(data);
     }
     fetchImages();
