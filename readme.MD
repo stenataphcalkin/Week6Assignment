@@ -44,6 +44,7 @@
    
    ✅ Application set up
    ![alt text](image.png)
+   ![alt text](image-1.png)
    🏹 Fetching data
 
 ✅ Use .env to hide your API keys and tokens from the code.
@@ -51,7 +52,7 @@
 🏹 Style the application excellently, using grid or flex and positioning.
 
 # Reflection
-Times I have considered praying to Loki ~for guidance~ to drop a piano on my favourite problem so far: 1
+Times I have considered praying to Loki ~for guidance~ to drop a piano on my favourite problem so far: 5
 
 ## Required
 🎯 What requirements did you achieve?
