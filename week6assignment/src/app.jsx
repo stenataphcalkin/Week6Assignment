@@ -1,15 +1,15 @@
-//!!!!!! please, please, please, split your code into components
+import "./app.css";
+import Gallery from "./components/gallery/gallery.jsx";
 
-// - Start with your wireframe: you build your React client based on the UI
+import "./components/gallery/gallery.css";
 
-import "./App.css";
-import Gallery from "./components/gallery/Gallery";
-
-export default function App () {
-  return <Gallery />;
+export default function app () {
+  return (
+  <>
+  <Gallery />
+</>
+  );
 }
-
-
 
 // export default function App() {
   //state
