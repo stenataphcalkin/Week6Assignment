@@ -1,16 +1,14 @@
-import { useState, useEffect} from "react" 
+import { useState, useEffect } from "react"; 
 import "./gallery.css";
-
 
 export default function Gallery() {
   const [images, setImages] = useState([]);
+  const [setCurrentImage] = useState(null);
 
   useEffect(() => {
     async function fetchImages() {
-      let response = await fetch(
-        "https://week-6-api.vercel.app/api/images"
-      );
-      let data = await response.json();
+      const response = await fetch(import.meta.FROG_IMAGES_API);
+      const data = await response.json();
       setImages(data);
     }
     fetchImages();
@@ -18,12 +16,16 @@ export default function Gallery() {
 
   return (
     <div className="photoGallery">
-      {/* <h1>Images</h1> */}
-      {/* <ul> */}
+      <h1>Images</h1>
         {images.map((image) => (
-          <ul key={image.id}>{image.title}&gt;{image.url}&gt;{image.alt}</ul>
+          <button
+            key={image.id}
+            onClick={() => setCurrentImage(image)}
+          >
+                {/*!!!! Need to put thumbnails somewhere in this, revist once everything renders. */}
+            <img src={image.url} alt={image.alt}/>
+          </button>
         ))}
-      {/* </ul> */}
     </div>
   );
 }
