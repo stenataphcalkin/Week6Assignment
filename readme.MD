@@ -11,6 +11,8 @@ Saturday - Still wasn't feeling 100%, dizziness and balance off. Nearly tumbled 
 
 Unsplash API - Implemented at the start of getting things set up with Render first and foremost. The less I have to poke the beast the better. Even If I don't get to rendering this, I just wanted to get that sweet sweet extra tick on the stretch goals list.
 
+Render - my burning hatrid for Render grows stronger each week. Screenshots have been attached to show that the content works for me on localhost, yet Render wants none of it. Two screenshots provided to show I can select images. ![alt text](<screenshot render 2.png>)![alt text](<screenshot render1.png>)
+
 Forgot to add Vite at the start of the API request in .env which caused a great deal of headaches, and feeling ridiculous for forgetting something so easy.
 
 Render deploy emails are driving me crazy and demotivating me during downtime. Considering turning them off as it's wearing me down.
