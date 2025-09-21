@@ -1,5 +1,8 @@
 import { useState, useEffect} from "react" 
-export default function App() {
+import "./gallery.css";
+
+
+export default function Gallery() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
@@ -14,13 +17,13 @@ export default function App() {
   }, []);
 
   return (
-    <div>
-      <h1>Images</h1>
-      <ul>
+    <div className="photoGallery">
+      {/* <h1>Images</h1> */}
+      {/* <ul> */}
         {images.map((image) => (
           <ul key={image.id}>{image.title}&gt;{image.url}&gt;{image.alt}</ul>
         ))}
-      </ul>
+      {/* </ul> */}
     </div>
   );
 }

@@ -3,10 +3,10 @@
 // - Start with your wireframe: you build your React client based on the UI
 
 import "./App.css";
-import gallery from "./components/gallery";
+import Gallery from "./components/gallery/Gallery.jsx";
 
 export default function App () {
-  <gallery />
+  <Gallery />
 }
 
 
